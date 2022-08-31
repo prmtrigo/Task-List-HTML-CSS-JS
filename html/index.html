@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,22 +9,43 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>Task List</title>
 </head>
+
 <body>
 
     <header>
         <h1>My Tasks</h1>
-        <form id="new-task-form">
-            <input 
-            type="text"
-            id="new-task-input"
-            placeholder="Insert Task Here">
 
-            <input 
-            type="submit" 
-            id="new-task-input"
-            value="Add task">
+        <form id="new-task-form">
+            <input type="text" id="new-task-input" placeholder="Insert Task Here">
+
+            <input type="submit" id="new-task-input" value="Add task">
         </form>
     </header>
+
+    <main>
+
+        <section class="task-list">
+            <h2>Tasks</h2>
+
+            <div id="tasks">
+
+                <div class="task">
+                    <div class="content">
+                        <input type="text" value="My task!" class="text" readonly>
+                    </div>
+
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="/js/script.js"></script>
+    
 </body>
 
 </html>
