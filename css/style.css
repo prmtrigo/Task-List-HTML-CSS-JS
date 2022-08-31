@@ -1,98 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
 body{
-    background-color: rgb(37, 40, 209);
-    color: rgb(71, 67, 67);
-    height: 100vh;
+    font-family: 'Poppins';
+    background: rgb(220, 220, 220);
 }
 
 .container{
-    position: absolute;
-    background-color: rgb(238, 232, 232);
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    border-radius: 1rem;
-    padding: 2rem;
-    height: 60vh;
-    max-width: 550px;
-}
-
-header{
-    background-color: white;
-    padding: 1.5rem 2rem;
-    margin: 2rem;
-    max-width: 450px;
-    width: 100vh;
-    border-radius: .5rem;
-    color: rgb(71, 67, 67);
-}
-
-header h1{
-    font-size: 2rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
-}
-
-#new-task-form{
-    display: flex;
-}
-
-input, button{
-    appearance: none;
-    border: none;
-    outline: none;
-    background: none;
-}
-
-#new-task-input{
-    flex: 1 1 0%;
-    padding: 1rem;
-    border-radius: 1rem;
-    margin-right: 1rem;
-    background-color: rgb(212, 207, 207);
-    color: rgb(71, 67, 67);
-    font-size: 1.25rem
-}
-
-#new-task-submit{
-    color:rgba(43, 142, 235);
-    font-size: 1.25rem;
-}
-
-.task-list{
-    background-color: rgba(43, 142, 235);
-    padding: 1rem 2rem;
-    margin: 2rem;
-    max-width: 450px;
-    width: 100vh;
-    border-radius: .5rem;
-    font-size: .8rem;
-    color: white;
-}
-
-.task-list h2{
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    font-weight: 300;
-}
-
-.task{
-    display: flex;
-}
-
-.content{
-    background-color: rgb(127, 183, 236);
-    border-radius: 1rem;
-    margin-right: 1rem;
-}
-
-.actions{
-    font-size: 1.25rem;
+    
 }
