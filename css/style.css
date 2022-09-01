@@ -63,18 +63,67 @@ header h1{
     font-size: 1.5rem;
     font-weight: 300;
     padding: 1rem 3rem;
-    margin-bottom: 2rem;
     border-radius: 1rem;
-    background-color: white;
     max-width: 450px;
     width: 100vh;
 }
 
-.task-list h2{
-    max-width: 450px;
+.task{
+    border-radius: .5rem;
+    background-color: white;
+    display: flex;
+    margin-left: -2.5rem;
+    max-width: 500px;
     width: 100vh;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+.task:hover{
+    padding: .7rem 1rem;
+}
+
+.task:hover .text{
     font-size: 1.5rem;
-    font-weight: 300;
-    border-radius: 1rem;
-    padding: .2rem .5rem;
+}
+
+.task:hover .actions button{
+    font-size: 1.1rem;
+}
+
+.text{
+    font-size: 1.2rem;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.actions button{
+    font-size: 1rem;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0 1rem;
+    font-weight: 600;
+}
+
+.edit{
+    color: rgb(37, 37, 199);
+    cursor: pointer;
+}
+
+.edit:hover{
+    color: rgb(70, 70, 211);
+}
+
+.delete{
+    color: rgb(209, 30, 30);
+    cursor: pointer;
+}
+
+.delete:hover{
+    color: rgb(211, 74, 74);
 }
