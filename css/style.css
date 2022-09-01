@@ -3,13 +3,78 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins';
 }
 
 body{
-    font-family: 'Poppins';
-    background: rgb(220, 220, 220);
+    background-color: rgb(220,220,220);
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
 }
 
-.container{
-    
+header{
+    background-color: white;
+    max-width: 450px;
+    width: 100vh;
+    padding: 2rem 3rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+header h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+#new-task-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+#new-task-input{
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    background: rgba(187, 183, 183, 0.815);
+    font-size: 1rem;
+    padding: .6rem 3rem;
+}
+
+#new-task-submit{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(5, 168, 5);
+    cursor: pointer;
+    transition: .2s;
+}
+
+#new-task-submit:hover{
+    font-size: 1rem;
+    color: green;
+}
+
+.task-list {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 1rem 3rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    max-width: 450px;
+    width: 100vh;
+}
+
+.task-list h2{
+    max-width: 450px;
+    width: 100vh;
+    font-size: 1.5rem;
+    font-weight: 300;
+    border-radius: 1rem;
+    padding: .2rem .5rem;
 }
